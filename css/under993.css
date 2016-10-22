@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5px;
+}
+
+main.row {
+    margin: auto;
+}
+
+.header-text {
+    width: 70%;
+    text-align: left;
+}
+
+.logo-field {
+    width: 30%;
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    width: 50%;
+    height: 26%;
+    margin-right: 20px;
+}
+
+.project-text {
+    text-align: left;
+}

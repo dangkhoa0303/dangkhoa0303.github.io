@@ -1,0 +1,32 @@
+h3 {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+main.row {
+    margin: auto;
+}
+
+.title-super {
+    font-size: 35px;
+}
+
+.header-text {
+    width: 60%;
+}
+
+.logo-field {
+    width: 40%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.thumbnail {
+    width: 40%;
+    height: 16%;
+}
