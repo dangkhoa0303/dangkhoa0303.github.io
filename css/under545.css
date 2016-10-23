@@ -11,19 +11,11 @@ main.row {
 }
 
 .title-super {
-    font-size: 35px;
+    font-size: 2em;
 }
 
-.header-text {
-    width: 60%;
-}
-
-.logo-field {
-    width: 40%;
-}
-
-.logo {
-    width: 100%;
+.sub-title {
+    font-size: 1em;
 }
 
 .thumbnail {

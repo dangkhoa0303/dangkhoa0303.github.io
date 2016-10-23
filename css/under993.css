@@ -2,6 +2,7 @@ header {
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 5px;
+    padding-right: 0;
 }
 
 main.row {
@@ -15,11 +16,6 @@ main.row {
 
 .logo-field {
     width: 30%;
-    display: flex;
-}
-
-.logo {
-    width: 100%;
 }
 
 .projects-section {
