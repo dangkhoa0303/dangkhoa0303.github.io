@@ -6,12 +6,15 @@ h2 {
     font-size: 20px;
 }
 
-main.row {
-    margin: auto;
-}
-
 .title-super {
     font-size: 2em;
+}
+
+.logo-field {
+    padding-left: 3%;
+    padding-right: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .sub-title {

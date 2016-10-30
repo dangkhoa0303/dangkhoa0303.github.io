@@ -1,26 +1,6 @@
 header {
-    display: flex;
-    flex-direction: row-reverse;
     padding-bottom: 5px;
     padding-right: 0;
-}
-
-main.row {
-    margin: auto;
-}
-
-.header-text {
-    width: 70%;
-    text-align: left;
-}
-
-.logo-field {
-    width: 30%;
-}
-
-.projects-section {
-    display: flex;
-    flex-direction: column;
 }
 
 .project-article {
