@@ -2,13 +2,12 @@
 <html>
 
 <head>
-    <title>My profolio website</title>
+    <title>Personal profolio website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/under993.css" rel="stylesheet" media="screen and (max-width:993px)">
     <link href="css/under545.css" rel="stylesheet" media="screen and (max-width:545px)"> </head>
 
 <body>
@@ -29,40 +28,70 @@
     <!-- Header -->
     <header class="container-fluid">
         <div class="row">
-            <div class="col-xs-4 col-md-4 col-lg-4 logo-field"> <img class="img-responsive img-circle logo" alt="logo" src="http://placehold.it/100x100"> </div>
+            <div class="col-xs-4 col-md-4 col-lg-4 logo-field"> <img class="img-responsive img-circle logo" alt="logo" src="http://lorempixel.com/output/cats-q-c-100-100-3.jpg"> </div>
             <div class="col-xs-8 col-md-8 col-lg-8 text-right text-uppercase header-text">
                 <h1 class="title-super">Dang Khoa</h1>
                 <h3 class="sub-title">Android/Front-end Developer</h3> </div>
         </div>
     </header>
+
+
     <!-- main part -->
     <main class="container-fluid">
+        <!-- divider -->
+        <hr>
+        <!-- main picture -->
         <section class="row">
-            <!-- divider -->
-            <div class="col-md-12">
-                <hr> </div>
-            <div class="col-md-12"> <img class="img-responsive main-pic" alt="main_pic" src="http://placehold.it/1140x350"> </div>
+            <div class="col-md-12"> <img class="img-responsive img-rounded main-pic" alt="main_pic" src="http://lorempixel.com/output/nature-q-c-1140-350-10.jpg"> </div>
             <div class="col-md-12">
                 <h2 class="text-muted">Featured Work</h2> </div>
-            <article class="col-xs-12 col-md-4 col-lg-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-                <div class="project-text">
-                    <h3 class="text-uppercase project_title">Movie</h3>
-                    <p><a href="https://github.com/dangkhoa0303/PopularMovies">Link to project</a></p>
+            <!-- Project articles -->
+            <div class="col-md-12">
+                <div class="row">
+                    <article class="col-xs-6 col-md-3 col-lg-3">
+                        <div class="thumbnail"> <img class="img-responsive" alt="project_pic" src="http://lorempixel.com/output/animals-q-c-555-300-4.jpg">
+                            <div class="caption project-text">
+                                <h3 class="text-uppercase project_title">Movies</h3>
+                                <p>Udacity Project - modified</p>
+                                <p><a href="https://github.com/dangkhoa0303/PopularMovies" class="btn btn-primary" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-xs-6 col-md-3 col-lg-3">
+                        <div class="thumbnail"> <img class="img-responsive" alt="project_pic" src="http://lorempixel.com/output/food-q-c-555-300-3.jpg">
+                            <div class="caption project-text">
+                                <h3 class="text-uppercase project_title">Restaurant</h3>
+                                <p>Udacity Project - modified</p>
+                                <p><a href="https://github.com/dangkhoa0303/Restaurant" class="btn btn-primary" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-xs-6 col-md-3 col-lg-3">
+                        <div class="thumbnail"> <img class="img-responsive" alt="project_pic" src="http://lorempixel.com/output/business-q-c-555-300-9.jpg">
+                            <div class="caption project-text">
+                                <h3 class="text-uppercase project_title">Portfolio</h3>
+                                <p>Udacity Project - updating</p>
+                                <p><a href="https://github.com/dangkhoa0303/Udacity-FontEnd-Nanodegree" class="btn btn-primary" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-xs-6 col-md-3 col-lg-3">
+                        <div class="thumbnail"> <img class="img-responsive" alt="project_pic" src="http://lorempixel.com/output/city-q-c-555-300-5.jpg">
+                            <div class="caption project-text">
+                                <h3 class="text-uppercase project_title">Tracking</h3>
+                                <p>Personal Project - updating</p>
+                                <p><a href="https://github.com/dangkhoa0303/Tracking_Places" class="btn btn-primary" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </article>
-            <article class="col-xs-12 col-md-4 col-lg-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-                <div class="project-text">
-                    <h3 class="text-uppercase project_title">Restaurant</h3>
-                    <p><a href="https://github.com/dangkhoa0303/Restaurant">Link to project</a></p>
-                </div>
-            </article>
-            <article class="col-xs-12 col-md-4 col-lg-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-                <div class="project-text">
-                    <h3 class="text-uppercase project_title">Portfolio</h3>
-                    <p><a href="https://github.com/dangkhoa0303/Udacity-FontEnd-Nanodegree">Link to project</a></p>
-                </div>
-            </article>
+            </div>
         </section>
+        <hr>
+        <!-- footer -->
+        <footer>
+            <p>&copy; 2016 DangKhoa, Android/Front-end developer</p>
+        </footer>
     </main>
 </body>
 <!-- Bootstrap core JavaScript -->

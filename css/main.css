@@ -40,19 +40,6 @@ header {
     padding-right: 3%;
 }
 
-.hamburger {
-    background: none;
-    top: 0;
-    right: 0;
-    line-height: 45px;
-    color: #fff;
-    border: 0;
-    font-size: 1.6em;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-}
-
 .title-super {
     font-size: 4em;
 }
@@ -68,10 +55,6 @@ header {
 .text-muted {
     font-weight: bold;
     color: #7d97ad;
-}
-
-.thumbnail {
-    width: 100%;
 }
 
 .project_title {
